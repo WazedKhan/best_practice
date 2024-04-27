@@ -13,9 +13,3 @@ def singleNumber(nums: List[int]):
     for key, value in counts.items():
         if value == 1:
             return key
-
-
-# list
-arr = [1, 2, 2]
-single_number = singleNumber(arr)
-print(single_number)
