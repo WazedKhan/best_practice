@@ -3,7 +3,7 @@ import sys
 sys.path.append(r"D:\Python\python-best-practice")
 
 
-from ..code.deafault_dict.find_unique_item import singleNumber
+from ..code.collections.find_unique_item import singleNumber
 
 
 def test_find_unique_item_of_list():
