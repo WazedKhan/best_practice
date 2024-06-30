@@ -5,7 +5,8 @@ class Character:
         self._attack_power = attack_power
 
     def attack(self, other):
-        self._health -= self._attack_power
+        other._health -= self._attack_power
+        return True
 
     def is_alive(self):
         return self._health > 0
