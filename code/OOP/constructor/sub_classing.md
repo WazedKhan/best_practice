@@ -20,7 +20,7 @@ If you are familiar with OOP, you probably already understand subclassing. To re
 
 Given the scenario where we need to work with distances in our application and want to leverage the existing functionality of the `float` type while also maintaining the unit of measurement, sub-classing `float` is a good solution. This approach allows us to extend `float` to include the unit and provide additional functionality specific to distances.
 
-## lets try out the basic implementation by ignoring that float it immutable class
+## lets try out the basic implementation by ignoring that float is immutable class
 
 ```python
 1 class Distance(float):
